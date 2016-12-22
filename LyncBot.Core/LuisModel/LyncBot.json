@@ -1,0 +1,214 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "LyncBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Call"
+    },
+    {
+      "name": "GoodMorningGreetings"
+    },
+    {
+      "name": "HiGreetings"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hi",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "abe",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "oye",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "hi ankit",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "hello ankit",
+      "intent": "HiGreetings",
+      "entities": []
+    },
+    {
+      "text": "order me a pizzafaf",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "asfsafsaf",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "gud mrning ankit",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "gud evnging",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "good morning ankit",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "gud after noon",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "can i call you",
+      "intent": "Call",
+      "entities": []
+    },
+    {
+      "text": "are you free",
+      "intent": "Call",
+      "entities": []
+    },
+    {
+      "text": "can we talk",
+      "intent": "Call",
+      "entities": []
+    },
+    {
+      "text": "extension",
+      "intent": "Call",
+      "entities": []
+    },
+    {
+      "text": "extn",
+      "intent": "Call",
+      "entities": []
+    },
+    {
+      "text": "ok",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "great",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "om",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "fasfs",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "safsaf",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "its a bit urgent",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "stop it",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "gm",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "great!",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "vgm",
+      "intent": "GoodMorningGreetings",
+      "entities": []
+    },
+    {
+      "text": "good",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "that is good",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nope",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "this is very urgent",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
