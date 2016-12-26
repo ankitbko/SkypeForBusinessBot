@@ -52,24 +52,24 @@
     </Reference>
     <Reference Include="Microsoft.Lync.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Microsoft Office 2013\LyncSDK\Assemblies\Desktop\Microsoft.Lync.Controls.dll</HintPath>
+      <HintPath>..\dlls\Microsoft.Lync.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Lync.Controls.Framework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Microsoft Office 2013\LyncSDK\Assemblies\Desktop\Microsoft.Lync.Controls.Framework.dll</HintPath>
+      <HintPath>..\dlls\Microsoft.Lync.Controls.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Lync.Model, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Microsoft Office 2013\LyncSDK\Assemblies\Desktop\Microsoft.Lync.Model.dll</HintPath>
+      <HintPath>..\dlls\Microsoft.Lync.Model.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Lync.Utilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Microsoft Office 2013\LyncSDK\Assemblies\Desktop\Microsoft.Lync.Utilities.dll</HintPath>
+      <HintPath>..\dlls\Microsoft.Lync.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Uc, Version=15.0.4603.1000, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>C:\Program Files (x86)\Microsoft Office 2013\LyncSDK\Assemblies\Desktop\Microsoft.Office.Uc.dll</HintPath>
+      <HintPath>..\dlls\Microsoft.Office.Uc.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Rest.ClientRuntime.2.3.2\lib\net45\Microsoft.Rest.ClientRuntime.dll</HintPath>
