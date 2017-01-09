@@ -22,3 +22,9 @@ First create a new [LUIS](https://www.luis.ai/) application by importing the mod
 
 
 The exception list is located in `App.config` in the console project. Values are *;* separated. 
+
+```xml
+<add key="ManagerList" value="sip:name1@domain.com;sip:name2@domain.com"/>
+```
+
+Make sure your Skype for Business client is running and you are signed in and just start the console project. Ask your friend to ping you and see what happens.
