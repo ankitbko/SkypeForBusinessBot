@@ -2,6 +2,10 @@
 A bot to automatically respond to Skype For Business IM.  
 Blog post - https://ankitbko.github.io/2017/01/BusyBot-Sykpe-For-Business-Bot/
 
+### Description
+Tired of getting IM during work, I created a bot to automatically respond to the incoming message that I am busy and set my Skype status to "Busy".
+This project was purely for fun.
+
 ### Features
 
 So what does the bot do as of now? It accepts the incoming IM and -
