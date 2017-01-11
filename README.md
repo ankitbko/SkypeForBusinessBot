@@ -16,7 +16,7 @@ So what does the bot do as of now? It accepts the incoming IM and -
 * Exception Filter - Bot does not reply anything if sender is present in **Exception List**. I don't want to reply to my manager that I am busy if he pings me. :)
 
 ### Dependency
-The bot has an **optional** dependency on Redis server. Since the bot will not be talking to Microsoft Bot Connector in any way, we would need to store bot's context somewhere ourself. I have used locally running instance of Redis. However I have commented out `RedisStore` and used `InMemoryStore`. To use Redis store uncomment the *region* in `Program.cs` and comment InMemory *region*.
+The bot has an **optional** dependency on Redis server. Since the bot will not be talking to Microsoft Bot Connector in any way, we would need to store bot's context somewhere ourself. I had earlier used locally running instance of Redis. However now I have commented out `RedisStore` and used `InMemoryStore`. To use Redis store uncomment the *region* in `Program.cs` and comment InMemory *region*.
 
 You would also need Skype For Business running and signed in.
 
