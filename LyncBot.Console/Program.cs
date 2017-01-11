@@ -29,20 +29,36 @@ namespace LyncBot.Console
         {
             var builder = new ContainerBuilder();
 
-            RedisStoreOptions redisOptions = new RedisStoreOptions()
-            {
-                Configuration = "localhost"
-            };
+            #region Redis
 
-            builder.Register(c => new RedisStore(redisOptions))
-               .As<RedisStore>()
-               .SingleInstance();
+            //RedisStoreOptions redisOptions = new RedisStoreOptions()
+            //{
+            //    Configuration = "localhost"
+            //};
 
-            builder.Register(c => new CachingBotDataStore(c.Resolve<RedisStore>(),
+            //builder.Register(c => new RedisStore(redisOptions))
+            //   .As<RedisStore>()
+            //   .SingleInstance();
+
+            //builder.Register(c => new CachingBotDataStore(c.Resolve<RedisStore>(),
+            //                                              CachingBotDataStoreConsistencyPolicy.ETagBasedConsistency))
+            //    .As<IBotDataStore<BotData>>()
+            //    .AsSelf()
+            //    .InstancePerLifetimeScope();
+            #endregion
+
+            #region InMemory
+            builder.RegisterType<InMemoryDataStore>()
+                .AsSelf()
+                .SingleInstance();
+
+            builder.Register(c => new CachingBotDataStore(c.Resolve<InMemoryDataStore>(),
                                                           CachingBotDataStoreConsistencyPolicy.ETagBasedConsistency))
                 .As<IBotDataStore<BotData>>()
                 .AsSelf()
                 .InstancePerLifetimeScope();
+
+            #endregion
 
             List<string> managerList = GetManagerList();
 
