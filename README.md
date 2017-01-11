@@ -17,6 +17,10 @@ So what does the bot do as of now? It accepts the incoming IM and -
 
 ### How to use
 
+#### Dependency
+The bot has an **optional** dependency on Redis server. Since the bot will not be talking to Microsoft Bot Connector in any way, we would need to store bot's context somewhere ourself. I have used locally running instance of Redis. However I have commented out `RedisStore` and used `InMemoryStore`. To use Redis store uncomment the *region* in `Program.cs` and comment InMemory *region*.
+
+
 The bot is just a console application. The bot service is not hosted as Web Api, but runs within the console applications. 
 First create a new [LUIS](https://www.luis.ai/) application by importing the model json from `LuisModel` directory. Copy your LUIS model id and subscription key and paste it in `LuisModel` attribute in `LyncLuisDialog.cs`.  
 
